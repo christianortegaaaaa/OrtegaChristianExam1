@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">OrtegaChristianExam1</string>
+
+    <string name="jhname"><u>James Harden</u></string>
+    <string name="jhdes">He is a player for the Houston Rockets of the National Basketball Association.</string>
+    <string name="kyname"><u>Kyrie Irving</u></string>
+    <string name="kydes">He is a player for the Boston Celtics of the National Basketball Association.</string>
+    <string name="jcname"><u>Jordan Clarkson</u></string>
+    <string name="jcdes">He is a player for the Cleveland Cavaliers of the National Basketball Association. </string>
+    <string name="job">Professional Basketball Player</string>
+</resources>

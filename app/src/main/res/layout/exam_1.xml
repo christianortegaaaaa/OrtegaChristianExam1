@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/bg"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="355dp"
+        android:layout_height="175dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/box"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/imageView"
+            style="@style/imgki"
+            app:srcCompat="@drawable/ky" />
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/name"
+            android:text="@string/kyname" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/job"
+            android:text="@string/job" />
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/content"
+            android:text="@string/kydes" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="355dp"
+        android:layout_height="175dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/box"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            style="@style/imgjc"
+            app:srcCompat="@drawable/jc" />
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/name"
+            android:text="@string/jcname" />
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/job"
+            android:text="@string/job" />
+
+        <TextView
+            android:id="@+id/textView6"
+            style="@style/content"
+            android:text="@string/jcdes" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="355dp"
+        android:layout_height="175dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/box"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout2"
+        app:layout_constraintVertical_bias="0.2">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            style="@style/imgjh"
+            app:srcCompat="@drawable/jh" />
+
+        <TextView
+            android:id="@+id/textView7"
+            style="@style/name"
+            android:text="@string/jhname" />
+
+        <TextView
+            android:id="@+id/textView8"
+            style="@style/job"
+            android:text="@string/job" />
+
+        <TextView
+            android:id="@+id/textView9"
+            style="@style/content"
+            android:text="@string/jhdes" />
+    </FrameLayout>
+</android.support.constraint.ConstraintLayout>
